@@ -1,0 +1,78 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      html, body {
+          height: 100%;;
+      }
+
+      body {
+          background-image: url(Bg.jpeg);
+          background-size: cover;
+          background-repeat: no-repeat; 
+          background-position: center;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .form-container {
+          background-color: rgba(227, 227, 222, 0.8); 
+          padding: 20px;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(191, 182, 182, 0.8);
+          width: 300px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .form-container h2 {
+          text-align: center;
+          color: #333;
+          margin-bottom: 20px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .form-container label {
+          display: block;
+          margin-bottom: 8px;
+          color: #333;
+      }
+
+      .form-container input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .form-container input[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          cursor: pointer;
+      }
+
+      .form-container input[type="submit"]:hover {
+          background-color: #45a049;
+      }
+
+      .password-container {
+          position: relative;
+          width: 100%;
+      }
+
+      .password-container input {
+          padding-right: 40px;
+      }
+
+      .password-toggle {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          cursor: pointer;
+      }
